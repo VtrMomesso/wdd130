@@ -3,18 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 :root {
---primary-Oxford-Blue: #0B132B;
---secondary-Space-cadet: #1C2541;
---accent1-YInMn-Blue: #3A506B;
---accent2-Verdigris: #5BC0BE;
+--primary-color: #0B132B;
+--secondary-color: #1C2541;
+--accent1-color: #3A506B;
+--accent2-color: #5BC0BE;
 
 --heading-font: 'Roboto', Helvetica, sans-serif;
 --paragraph-font: 'Poppins', sans-serif;
 
---nav-background-color: #3A506c;
---nav-link-color: #0B132c;
---nav-hover-link-color: #5BC0Bf;
---nav-hover-background-color: #1C2542;
+--nav-background-color: #3A506B;
+--nav-link-color: #0B132B;
+--nav-hover-link-color: #5BC0BE;
+--nav-hover-background-color: #1C2541;
 }
 
 body {
