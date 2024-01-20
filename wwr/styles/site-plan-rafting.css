@@ -11,10 +11,10 @@
 --heading-font: 'Roboto', Helvetica, sans-serif;
 --paragraph-font: 'Poppins', sans-serif;
 
---nav-background-color: #3A506B;
---nav-link-color: #0B132B;
---nav-hover-link-color: #5BC0BE;
---nav-hover-background-color: #1C2541;
+--nav-background-color: #3A506c;
+--nav-link-color: #0B132c;
+--nav-hover-link-color: #5BC0Bf;
+--nav-hover-background-color: #1C2542;
 }
 
 body {
