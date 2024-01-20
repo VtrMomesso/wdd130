@@ -18,9 +18,35 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
 }
 
-h1 {
-    font-family: 'Roboto', Helvetica, sans-serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-Oxford-Blue);
 }
+
+header{
+    padding: 20px;
+    background-color: var(--accent1-YInMn-Blue);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
