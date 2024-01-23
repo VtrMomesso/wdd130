@@ -68,7 +68,7 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
-    position: inherit;
+    position: relative;
 }
 
 aside h2 {
