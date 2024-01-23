@@ -1,6 +1,6 @@
 * {
-    margin: 2px;
-    padding: 2px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -20,12 +20,12 @@ h1 {
 }
 
 main img {
-    float: right;
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 p {
@@ -44,6 +44,7 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: inherit;
 }
 
 aside img {
