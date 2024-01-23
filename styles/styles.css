@@ -36,16 +36,7 @@ main {
     max-width: 840px;
 }
 
-aside {
-    width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-    position: inherit;
-}
+
 
 aside img {
     width: 200px;
@@ -67,6 +58,17 @@ footer {
     background-color: rgba(111, 133, 150, 0.552);
     color: black;
     width: 20rem;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+    position: inherit;
 }
 
 aside h2 {
