@@ -61,7 +61,7 @@ footer {
     padding: 1rem;
     background-color: rgba(111, 133, 150, 0.552);
     color: black;
-    width: 20rem;
+    width: 20rem; 
 }
 
 aside {
@@ -77,5 +77,6 @@ aside {
 
 aside h2 {
     
+    color: rgb(35, 62, 85);
     position: absolute;
 }
