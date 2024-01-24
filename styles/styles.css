@@ -17,10 +17,13 @@ nav a {
 
 h1 {
     color: steelblue;
+    padding: 1rem;
+    text-align: center;
 }
 
 main img {
     width: 150px;
+    margin: 0 0 15px 15px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
@@ -29,7 +32,7 @@ main img {
 }
 
 p {
-    padding: 0;
+    padding: 1rem;
 }
 
 main {
@@ -47,6 +50,7 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+    clear: both;
 }
 
 /* Class Selectors */
