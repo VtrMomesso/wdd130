@@ -16,3 +16,51 @@
 --nav-hover-link-color: #5BC0BE;
 --nav-hover-background-color: #1C2541;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+
+a:link, a:visited {
+    color: var(--nav-link-color);
+    text-decoration: none;
+} 
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+.hero{
+    position: relative;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article {
+    position: absolute
+}
+
+/*.hero article img {
+    float: right;
+    width: 120px;
+    height: auto;
+    margin-right: 50px;
+}
+
+.hero article p{
+    
+}
+*/
