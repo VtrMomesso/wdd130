@@ -39,28 +39,39 @@ body{
     padding: 20px;
 }
 
-.hero{
-    position: relative;
-}
 
-.hero img{
+.hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.hero article {
-    position: absolute
+.hero {
+    position: relative;
 }
 
-/*.hero article img {
+.hero h1 {
+    position:absolute;
+    background-position: 100%;
+    background-color: #5bc0be56;
+    top: 20px;
+    text-align: center;
+    padding-left: 15rem;
+    padding-right: 3rem;
+}
+
+.hero article{
+    position: absolute;
+    margin: 0px;
+    top: 35%;
+    background-color: #5bc0be56 ;
+    width: 90%;
+    left: 3rem;
+}
+
+.hero article img {
     float: right;
-    width: 120px;
+    width: 200px;
     height: auto;
-    margin-right: 50px;
+    margin: 15px;
 }
-
-.hero article p{
-    
-}
-*/
