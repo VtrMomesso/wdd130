@@ -94,6 +94,8 @@ aside h2 {
 }
 
 main {
+    display: grid;
+    align-items: center;
     grid-column: 2/4;
     margin: 1rem;
 }
