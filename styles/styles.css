@@ -28,15 +28,7 @@ h1 {
     border-bottom: 1px solid steelblue;
 }
 
-main img {
-    width: 150px;
-    margin: 15px 15px 15px 15px;
-    height: auto;
-    border: 1px solid steelblue;
-    padding: 2px;
-    box-shadow: 0 0 30px rgba(111, 133, 150, 0.151);
-    float: right;
-}
+
 
 p {
     padding: 1rem;
@@ -73,6 +65,8 @@ footer {
 aside {
     width: 20rem;
     position: relative;
+    grid-column: 1/1;
+    grid-row: 1/2;
     border: 1px solid rgba(0, 0, 0, 0.226);
     padding: 1rem;
     background-color: rgba(111, 133, 150, 0.151);
@@ -94,14 +88,16 @@ aside h2 {
 }
 
 main {
-    display: grid;
-    align-items: center;
     grid-column: 2/4;
     margin: 1rem;
 }
 
-aside {
-    width: 20rem;
-    grid-column: 1/1;
-    grid-row: 1/2;
+main img {
+    width: 150px;
+    margin: 15px 15px 15px 15px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px rgba(111, 133, 150, 0.151);
+    float: right;
 }
