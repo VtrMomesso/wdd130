@@ -130,7 +130,7 @@ section.history h2{
 section.adventure {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 30px 1fr;
 }
 
 section.adventure h2{
@@ -138,11 +138,22 @@ section.adventure h2{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: var(--accent2-color);
+    
 }
 
 section.adventure img {
-    width: 180px;
-    height: auto;
+    justify-content: space-between;
+    width: auto;
+    height: 120px;
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+}
+
+figcaption {
+    text-align: center;
+    background-color: #5BC0BE;
+    margin-right: 4px;
+    font: italic bold smaller c;
+    color: var(--primary-color);
 }
