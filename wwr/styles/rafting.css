@@ -43,6 +43,7 @@ body{
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding: 20px;
+    justify-content: center;
 }
 
 
@@ -73,6 +74,7 @@ body{
     background-color: #5bc0be56 ;
     width: 90%;
     left: 3rem;
+    
 }
 
 .hero article img {
@@ -94,7 +96,7 @@ header {
     font-family: var(--heading-font);
 }
 
-.logo img {
+header.logo img {
     width: 68px;
     height: auto;
     margin: 0 1rem 0 2rem;
@@ -104,8 +106,7 @@ nav.main {
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 nav.main a {
@@ -120,17 +121,24 @@ nav.main a:hover {
     background-color: var(--nav-hover-link-color);
 }
 
-/* Align All teh content */
-section.history h2{
+/* Align main content */
+section.history {
+    text-align: center;
+    margin: 1PX;
+    border: 1px solid;
+}
+
+section.history h2 {
     display:flex;
     justify-content: center;
-
+    background-color: var(--accent2-color);
+    height: 3rem;
+    align-items: center;
 }
 
 section.adventure {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 30px 1fr;
+    grid-template-rows: 50px 5fr;
 }
 
 section.adventure h2{
@@ -139,15 +147,17 @@ section.adventure h2{
     align-items: center;
     justify-content: center;
     background-color: var(--accent2-color);
+    padding: 2rem;
+    margin-bottom: 2px;
     
 }
 
 section.adventure img {
-    justify-content: space-between;
-    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 180px;
     height: 120px;
-    display: flex;
-    flex-wrap: wrap;
+    
 }
 
 figcaption {
@@ -156,4 +166,28 @@ figcaption {
     margin-right: 4px;
     font: italic bold smaller c;
     color: var(--primary-color);
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 128px;
+    margin-top: 1px solid black;
+}
+
+footer p {
+    ;
+}
+
+nav.sociallinks {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    padding-right: 3rem;
+}
+
+.sociallinks a{
+    width: 25px;
+    height: auto;
 }
