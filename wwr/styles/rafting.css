@@ -171,11 +171,6 @@ figcaption {
 footer {
     display: grid;
     grid-template-columns: 1fr 128px;
-    margin-top: 1px solid black;
-}
-
-footer p {
-    ;
 }
 
 nav.sociallinks {
