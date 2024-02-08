@@ -1,3 +1,4 @@
+/*FORM GENERAL EDITATION CSS */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
 * {
@@ -58,12 +59,42 @@ textarea {
 }
 
 label {
-    text-align: right;
+    text-align: left;
     padding: 1rem;
 }
 
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input [type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.2rem;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
+
 footer {
-    margin: 0 auto;
+    margin: 1rem auto;
     text-align: center;
     width: 650px;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
 }
