@@ -56,6 +56,7 @@ button,
 select, 
 textarea {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 label {
@@ -111,5 +112,5 @@ footer {
 
 .column2 {
     grid-template-columns: 1fr 2fr;
-    
+
 }
