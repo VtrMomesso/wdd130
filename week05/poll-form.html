@@ -12,16 +12,34 @@
     </header>
 
     <main>
-        <form action="">
+        <form action="#">
             <fieldset>
                 <legend>Contact Information</legend>
-                <!-- form elements will go here -->
+                <label for="fullname">Full Name:</label>
                 <input type="text" id="fullname" name="fullname">
+                <label for="email">Email:</label>
+                <input type="email" id="useremail" name="useremail">
             </fieldset>
             <fieldset>
                 <legend>Questions</legend>
-                <!-- form elements will go here -->
+                <label for="browser">What is your favorite internet browser?</label>
+                <select name="browser" id="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Edge</option>
+                    <option value="opera">Opera</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" name="pet" id="pet">
+                <label for="feedback">List the places you have lived:</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Franco da Rocha-SP, Fortaleza-CE, São Paulo-SP, Itapevi-SP."></textarea>
+
             </fieldset>
+            <button type="submit">Submit Poll</button>
         </form>
     </main>
 
