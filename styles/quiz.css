@@ -54,7 +54,7 @@ div {
     ;
 }
 
-p {
+div p {
     color: #eee;
 }
 
@@ -70,4 +70,13 @@ button {
 
 button:hover{
     background-color: darkgreen;
+}
+
+footer {
+    margin: 1rem auto;
+    text-align: center;
+    width: 650px;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
 }
