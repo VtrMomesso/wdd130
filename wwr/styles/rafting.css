@@ -190,3 +190,63 @@ nav.sociallinks {
     width: 25px;
     height: auto;
 }
+
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+form h2 {
+    text-align: center;
+    padding: 1rem;
+}
+
+form .p1 {
+    margin-top: -2rem;
+    text-align: center;
+}
+
+form .p2 {
+    margin-bottom: -1rem;
+}
+
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #777676;
+    outline: none;
+    color: #0B132B;
+    font-size: 15px;
+    width:45%;
+    letter-spacing: 2px;
+    ;
+}
+
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5px;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: navy;
+}
