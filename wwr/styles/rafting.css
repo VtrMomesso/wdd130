@@ -310,7 +310,7 @@ form .p2 {
     top: 0px;
     left: 0px;
     pointer-events: none;
-    transition: .5px;
+    transition: 0.5px;
     margin-left: 15px;
 }
 
