@@ -197,7 +197,7 @@ section.first{
     max-width: 960px;
 }
 
-.contact h1, h2{
+.contact h1, .contact h2{
     text-align: center;
     margin-bottom: 1rem;
 }
@@ -274,8 +274,7 @@ form {
 }
 
 input,
-select,
-textarea {
+select {
     padding: 0.5rem;
     font-size: 1.1rem;
 }
