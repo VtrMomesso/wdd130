@@ -214,8 +214,55 @@ section.first{
     grid-template-columns: 25px auto; 
 }
 
+.map {
+    width: 400px;
+    height: 400px;
+    padding-left: 4em;
+    padding-right: 4em;
+}
 
+.second h2{
+    border-top: 2px solid #ccc;
+    padding-top: 1em;
+}
 
+.dog {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    max-width: 960px;
+}
+
+.dog img{
+    width: 550px;
+    height: 420px;
+    padding: 2em;
+}
+
+.dog div{
+    margin-top: 4em;
+}
+
+.cat {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    max-width: 960px;
+    border-bottom: 2px solid #ccc;
+}
+
+.cat img{
+    width: 550px;
+    height: 420px;
+    padding: 2em;
+}
+
+.cat div{
+    margin-top: 5em;
+    margin-left: 2em;
+}
+
+.third {
+    padding: 3em;
+}
 form {
     width: 650px;
     margin: 0 auto;
