@@ -49,9 +49,24 @@
             </div>
         </Section>
         <section class="third">
-            <h2>Send Us a Message</h2>
             <Form>
-                
+                <h2>Send Us a Message</h2>
+                <p>Send us a message and we'll respond within 24 hours</p>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+
+                <p>Message Purpose</p>
+                <input type="radio" id="gi" value="gi" required>
+                <label for="gi">General Inquiry</label>
+                <input type="radio" id="rq" value="rq" required>
+                <label for="rq">Reservation Question</label>
+                <input type="radio" id="ws" value="ws" required>
+                <label for="ws">Website Suggestion</label>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="4"></textarea>
             </Form>
         </section>
     </main>
