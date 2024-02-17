@@ -233,8 +233,8 @@ section.first{
 }
 
 .dog img{
-    width: 550px;
-    height: 420px;
+    max-width: 550px;
+    max-height: 420px;
     padding: 2em;
 }
 
@@ -250,8 +250,8 @@ section.first{
 }
 
 .cat img{
-    width: 550px;
-    height: 420px;
+    max-width: 550px;
+    max-height: 420px;
     padding: 2em;
 }
 
