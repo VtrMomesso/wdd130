@@ -348,3 +348,46 @@ button{
     text-align: center;
     margin-left: 12rem;
 }
+
+.contact-link h2{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.main-content{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    padding-top: 3rem;
+}
+
+table {
+    margin: 2rem;
+    padding: 1rem;
+    display: grid;
+    justify-content: center;
+    border: 1px solid #0B132B;
+}
+
+thead{
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+
+th, td {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+    
+}
