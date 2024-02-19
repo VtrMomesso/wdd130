@@ -307,7 +307,6 @@ form .p2 {
 .labelInput{
     top: 0px;
     left: 0px;
-    pointer-events: none;
     margin-left: 15px;
 }
 
