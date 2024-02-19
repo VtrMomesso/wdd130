@@ -144,13 +144,11 @@ section.adventure {
 
 section.adventure h2{
     grid-column: 1/6;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     background-color: var(--accent2-color);
-    padding: 2rem;
-    margin-bottom: 2px;
-    
+    padding: 1rem;
 }
 
 section.adventure img {
