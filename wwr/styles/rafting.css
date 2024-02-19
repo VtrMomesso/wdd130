@@ -391,6 +391,12 @@ th, td {
     padding-right: 2rem;
 }
 
+.pct {
+    width: 100%;
+    height: 40px;
+    object-fit: cover;
+}
+
 .section {
     background: lightblue;
 }
@@ -415,3 +421,4 @@ th, td {
     grid-gap: 10px
     
 }
+
