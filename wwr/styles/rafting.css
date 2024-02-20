@@ -420,3 +420,19 @@ th, td {
     
 }
 
+.section2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.sub {
+    padding-top: 3rem;
+}
+
+.subscribe{
+    opacity:0.8;
+    background-color: #5BC0BE;
+}
+
+
+
