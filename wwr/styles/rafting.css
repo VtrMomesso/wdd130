@@ -433,5 +433,22 @@ th, td {
     background-color: #5bc0be56;
 }
 
+.btn-primary {
+    background: lightblue;
+    border: none;
+    padding: 8px 20px;
+    margin-top: 10px;
+    border-radius: 0.4em;
+}
 
+.btn-primary :hover{
+    background: #5BC0BE;
+    text-decoration: underline;
+    border: solid #5BC0BE; 
+    padding: 0 20px;
+    border-radius: 0.4em;
+}
 
+.btn {
+    display: flex;
+}
